@@ -84,31 +84,3 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     );
   }
 }
-
-// class RoundedButton extends StatelessWidget {
-//   final String title;
-//   final Color btnColor;
-//   final Function onBtnPressed;
-//
-//   const RoundedButton(this.title, this.btnColor, this.onBtnPressed);
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Padding(
-//       padding: EdgeInsets.symmetric(vertical: 16.0),
-//       child: Material(
-//         elevation: 5.0,
-//         color: btnColor,
-//         borderRadius: BorderRadius.circular(30.0),
-//         child: MaterialButton(
-//           onPressed: onBtnPressed,
-//           minWidth: 200.0,
-//           height: 42.0,
-//           child: Text(
-//             title,
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
